@@ -43,7 +43,9 @@ const Form = (props) => {
                     
                         default:
                             return(
-                                'trabajo duro, como un esclavo'
+                                <div>
+                                    Error;
+                                </div>
                             )
                     }
                 })

@@ -21,23 +21,23 @@ const FeedbackContainer = () => {
   return (
     <div className='feedback-container'>
       <h1 className='title'>Tus respuestas</h1>
-      <div>
+      <div className='res-container'>
         <h3 className='label-feedback'>Nombre</h3>
         <p className='res-feedback'>{form.full_name}</p>
       </div>
-      <div>
+      <div className='res-container'>
         <h3 className='label-feedback'>Email</h3>
         <p className='res-feedback'>{form.email}</p>
       </div>
-      <div>
+      <div className='res-container'>
         <h3 className='label-feedback'>Fecha de nacimiento</h3>
         <p className='res-feedback'>{form.birth_date}</p>
       </div>
-      <div>
+      <div className='res-container'>
         <h3 className='label-feedback'>Pais de origen</h3>
         <p className='res-feedback'>{form.country_of_origin}</p>          
       </div>
-      <div>
+      <div className='res-container'>
         <h3 className='label-feedback'>Terminos y condiciones</h3>
         <p className='res-feedback'>{form.terms_and_conditions}</p>
       </div>
